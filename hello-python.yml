@@ -1,9 +1,9 @@
 provider:
   name: faas
-  gateway: http://127.0.0.1:8080
+  gateway: http://10.98.80.243:8080
 
 functions:
   hello-python:
     lang: python-armhf
     handler: ./hello-python
-    image: hello-python:latest
+    image: hello-python
